@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -110,6 +111,14 @@ export default {
           '0%': { opacity: '0', transform: 'translateX(-20px)' },
           '100%': { opacity: '1', transform: 'translateX(0)' }
         },
+        'slide-left': {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' }
+        },
+        'slide-right': {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(50%)' }
+        },
         'glow': {
           '0%': { textShadow: '0 0 4px rgba(255, 150, 100, 0.3)' },
           '100%': { textShadow: '0 0 8px rgba(255, 150, 100, 0.6)' }
@@ -121,6 +130,8 @@ export default {
         'fade-in': 'fade-in 0.8s ease-out forwards',
         'slide-up': 'slide-up 0.8s ease-out forwards',
         'slide-in-right': 'slide-in-right 0.6s ease-out forwards',
+        'slide-left': 'slide-left 120s linear infinite',
+        'slide-right': 'slide-right 120s linear infinite',
         'glow': 'glow 2s ease-in-out infinite alternate'
       }
     }
