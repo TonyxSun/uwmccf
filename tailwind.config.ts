@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -130,8 +129,8 @@ export default {
         'fade-in': 'fade-in 0.8s ease-out forwards',
         'slide-up': 'slide-up 0.8s ease-out forwards',
         'slide-in-right': 'slide-in-right 0.6s ease-out forwards',
-        'slide-left': 'slide-left 120s linear infinite',
-        'slide-right': 'slide-right 120s linear infinite',
+        'slide-left': 'slide-left 60s linear infinite',
+        'slide-right': 'slide-right 60s linear infinite',
         'glow': 'glow 2s ease-in-out infinite alternate'
       }
     }
