@@ -65,10 +65,10 @@ const Index = () => {
           <Card
             className={`p-8 bg-white dark:bg-gradient-to-r from-gray-800 via-gray-900 to-gray-950 backdrop-blur-sm border border-gray-200 dark:border-gray-700 shadow-md animate-slide-up transition-all duration-300 ${
               mounted ? "opacity-100" : "opacity-0"
-            } overflow-hidden`}
+            } overflow-hidden min-h-[180px] md:min-h-[200px]`}
             style={{ animationDelay: "0.4s" }}
           >
-            <div className="relative h-16 md:h-20 flex items-center justify-center">
+            <div className="relative h-24 md:h-26 flex items-center justify-center">
               {paragraphs.map((paragraph, index) => (
                 <div
                   key={paragraph.key}
@@ -93,7 +93,7 @@ const Index = () => {
             </div>
 
             {/* Pagination indicators */}
-            <div className="mt-4 flex justify-center space-x-2">
+            <div className="mt-6 flex justify-center space-x-2">
               {paragraphs.map((_, index) => (
                 <button
                   key={index}
