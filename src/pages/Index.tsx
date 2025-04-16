@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -32,7 +31,7 @@ const Index = () => {
           
           {/* Subtitle with softer tone */}
           <h2 className={`text-2xl md:text-3xl font-semibold text-gray-700 dark:text-gray-300 animate-slide-up transition-all duration-300 delay-100 ${mounted ? 'opacity-100' : 'opacity-0'}`} style={{ animationDelay: '0.2s' }}>
-            University of Washington Malaysian Chinese Christian Fellowship
+            University of Waterloo Mandarin Chinese Christian Fellowship
           </h2>
           
           {/* Description Card with lighter background */}
