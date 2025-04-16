@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Instagram } from "lucide-react";
+import { Instagram, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { ThemeToggle } from "@/components/ThemeToggle";
@@ -43,14 +43,25 @@ const Index = () => {
             </p>
           </Card>
           
-          {/* Instagram Link */}
-          <div className={`animate-slide-up transition-all duration-300 ${mounted ? 'opacity-100' : 'opacity-0'}`} style={{ animationDelay: '0.6s' }}>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+          {/* Social Links */}
+          <div className={`flex justify-center space-x-4 animate-slide-up transition-all duration-300 ${mounted ? 'opacity-100' : 'opacity-0'}`} style={{ animationDelay: '0.6s' }}>
+            {/* Instagram Link (icon only) */}
+            <a href="https://www.instagram.com/uwmccf/" target="_blank" rel="noopener noreferrer">
               <Button 
-                className="group bg-gradient-to-r from-gray-500 to-gray-600 hover:from-gray-600 hover:to-gray-700 text-white px-8 py-6 rounded-full text-lg transition-all duration-300 shadow-md hover:shadow-xl"
+                className="group bg-gradient-to-r from-gray-500 to-gray-600 hover:from-gray-600 hover:to-gray-700 text-white p-3 rounded-full transition-all duration-300 shadow-md hover:shadow-xl"
+                aria-label="Follow us on Instagram"
               >
-                <Instagram className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform duration-300" />
-                Contact us to find out how to join!
+                <Instagram className="w-6 h-6 group-hover:scale-110 transition-transform duration-300" />
+              </Button>
+            </a>
+            
+            {/* Email Link */}
+            <a href="mailto:uwmccf@gmail.com">
+              <Button 
+                className="group bg-gradient-to-r from-gray-500 to-gray-600 hover:from-gray-600 hover:to-gray-700 text-white p-3 rounded-full transition-all duration-300 shadow-md hover:shadow-xl"
+                aria-label="Email us"
+              >
+                <Mail className="w-6 h-6 group-hover:scale-110 transition-transform duration-300" />
               </Button>
             </a>
           </div>
