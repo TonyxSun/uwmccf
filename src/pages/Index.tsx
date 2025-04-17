@@ -5,10 +5,17 @@ import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import BibleVerseBackground from "@/components/BibleVerseBackground";
 
+// Define the type for paragraph items
+interface ParagraphItem {
+  text: string;
+  key: string;
+  italic?: boolean; // Make italic optional
+}
+
 const Index = () => {
   const [mounted, setMounted] = useState(false);
   const [currentParagraph, setCurrentParagraph] = useState(0);
-  const paragraphs = [
+  const paragraphs: ParagraphItem[] = [
     {
       text: "大家好，我们是UWMCCF 滑铁卢校园国语基督教团契! ⭐️ ",
       key: "intro",
