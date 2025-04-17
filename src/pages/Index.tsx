@@ -1,7 +1,7 @@
+
 import { useState, useEffect } from "react";
 import { Instagram, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import BibleVerseBackground from "@/components/BibleVerseBackground";
 
@@ -61,9 +61,9 @@ const Index = () => {
             University of Waterloo Mandarin Chinese Christian Fellowship
           </h2> */}
 
-          {/* Description Card with lighter background */}
-          <Card
-            className={`p-8 bg-white dark:bg-gradient-to-r from-gray-800 via-gray-900 to-gray-950 backdrop-blur-sm border border-gray-200 dark:border-gray-700 shadow-md animate-slide-up transition-all duration-300 ${
+          {/* Description section with pagination but without card border */}
+          <div
+            className={`p-8 backdrop-blur-sm animate-slide-up transition-all duration-300 ${
               mounted ? "opacity-100" : "opacity-0"
             } overflow-hidden min-h-[180px] md:min-h-[200px]`}
             style={{ animationDelay: "0.4s" }}
@@ -107,7 +107,7 @@ const Index = () => {
                 />
               ))}
             </div>
-          </Card>
+          </div>
 
           {/* Social Links */}
           <div
