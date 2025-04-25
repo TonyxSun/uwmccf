@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Instagram, Mail } from "lucide-react";
+import { Instagram, Mail, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import BibleVerseBackground from "@/components/BibleVerseBackground";
@@ -144,8 +144,24 @@ const Index = () => {
         </div>
       </main>
 
-      <footer className="w-full py-6 text-center text-gray-600 dark:text-gray-400 z-10">
+      <footer className="w-full py-6 text-center text-gray-600 dark:text-gray-400 z-10 relative">
         <p>&copy; {new Date().getFullYear()} UWMCCF. All rights reserved.</p>
+        
+        {/* GitHub Link */}
+        <a 
+          href="https://github.com/TonyxSun/uwmccf" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="absolute bottom-4 right-4"
+        >
+          <Button 
+            variant="outline" 
+            size="icon" 
+            className="text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
+          >
+            <Github className="h-5 w-5" />
+          </Button>
+        </a>
       </footer>
     </div>
   );
