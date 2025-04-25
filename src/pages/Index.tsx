@@ -145,7 +145,7 @@ const Index = () => {
       </main>
 
       <footer className="w-full py-6 text-center text-gray-600 dark:text-gray-400 z-10 relative">
-        <p>&copy; {new Date().getFullYear()} UWMCCF. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} UWMCCF.</p>
         
         {/* GitHub Link */}
         <a 
