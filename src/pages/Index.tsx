@@ -16,7 +16,7 @@ const Index = () => {
   const [currentParagraph, setCurrentParagraph] = useState(0);
   const paragraphs: ParagraphItem[] = [
     {
-      text: "大家好，我们是UWMCCF 滑铁卢校园国语基督教团契! ⭐️ ",
+      text: "大家好，我们是UWMCCF 滑铁卢校园国语基督徒团契! ⭐️ ",
       key: "intro",
     },
     {
