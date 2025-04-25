@@ -52,7 +52,7 @@ const Index = () => {
       </header>
 
       <main className="flex-1 flex flex-col items-center justify-center w-full max-w-6xl px-6 py-12 z-10">
-        <div className="w-full max-w-3xl mx-auto text-center space-y-8">
+        <div className="w-full max-w-3xl mx-auto text-center space-y-6">
           {/* Title with softer animation */}
           <h1
             className={`text-5xl md:text-7xl font-bold bg-gradient-to-r from-gray-700 to-gray-900 dark:from-gray-200 dark:to-white bg-clip-text text-transparent animate-glow transition-all duration-300 ${
