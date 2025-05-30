@@ -33,7 +33,7 @@ npm run dev
 This repo was started via [Lovable](https://lovable.dev/projects/27724afa-7a16-4ba8-b2ca-134fe68d319a). Contact me if you would like to access to the project. 
 
 
-# Deployment 
+## Deployment 
 
 This project is deployed and hosted on [Cloudflare Pages](https://pages.cloudflare.com/). The domain `uwmccf.com` is also managed through Cloudflare.
 
