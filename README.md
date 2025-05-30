@@ -32,11 +32,18 @@ npm run dev
 
 This repo was started via [Lovable](https://lovable.dev/projects/27724afa-7a16-4ba8-b2ca-134fe68d319a). Contact me if you would like to access to the project. 
 
+
+# Deployment 
+
+This project is deployed and hosted on [Cloudflare Pages](https://pages.cloudflare.com/). The domain `uwmccf.com` is also managed through Cloudflare.
+
+Cloudflare Pages is configured to automatically build and deploy the site when changes are pushed to the main branch of the GitHub repository.
+
 ## Contribute
 
 If you are looking to contribute, please submit a Pull Request with a clear description of your changes. All contributions are welcome!
 
-Open to transferring ownership of the repository to the current UWMCCF team if they are interested. 
+Open to transferring ownership of the repository to the current UWMCCF team if they have capacity. 
 I own and pay for the domain uwmccf.com on Cloudflare, which can be transferred as well. 
 
 ## Footer
